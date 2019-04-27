@@ -1,0 +1,7 @@
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/install.dir
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/list_install_components.dir
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/rebuild_cache.dir
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/install/strip.dir
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/install/local.dir
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/pianobooster.dir
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,19 @@
+--cpu Cortex-M3
+".\obj\stm32f10x_dma.o"
+".\obj\stm32f10x_flash.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_systick.o"
+".\obj\stm32f10x_lib.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_adc.o"
+".\obj\stm32f10x_nvic.o"
+".\obj\stm32f10x_usart.o"
+".\obj\stm32f10x_tim.o"
+".\obj\cortexm3_macro.o"
+".\obj\stm32f10x_vector.o"
+".\obj\stm32f10x_it.o"
+".\obj\main.o"
+--strict --scatter ".\obj\test_2812b.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\list\test_2812b.map" -o .\obj\test_2812b.axf

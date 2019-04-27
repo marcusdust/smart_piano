@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\work\stm32\test_ws2812b\test_2812b.uvproj
+Project File Date:  11/01/2015
+
+<h2>Output:</h2>
+Build target 'test2812'
+compiling main.c...
+src\main.c(624): warning:  #177-D: variable "i" was declared but never referenced
+        u8 i;
+src\main.c(626): warning:  #177-D: variable "damper" was declared but never referenced
+        u8 damper = 32;
+src\main.c(627): warning:  #177-D: variable "counter" was declared but never referenced
+        u32 counter = 0;
+src\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=10468 RO-data=628 RW-data=44 ZI-data=3412  
+FromELF: creating hex file...
+".\obj\test_2812b.axf" - 0 Error(s), 3 Warning(s).
+Load "F:\\work\\stm32\\test_ws2812b\\obj\\test_2812b.axf" 
+Set JLink Project File to "F:\work\stm32\test_ws2812b\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.50l, compiled Jul  9 2012 15:02:49
+Firmware: J-Link ARM V8 compiled May 27 2009 17:31:22
+Hardware: V8.00
+S/N : 805297969 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+nit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

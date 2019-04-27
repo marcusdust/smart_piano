@@ -1,0 +1,17 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtOpenGL
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtXml
+-I/usr/include/qt4/QtCore
+-I/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build
+-I/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build
+-I/usr/include
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_OPENGL_LIB
+-DQT_GUI_LIB
+-DQT_XML_LIB
+-DQT_CORE_LIB
+-D__LINUX_ALSASEQ__
+-o
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/build/moc_GuiMidiSetupDialog.cxx
+/home/marcus/Downloads/pianobooster/pianobooster-0.6.4b/src/GuiMidiSetupDialog.h

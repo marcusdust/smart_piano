@@ -1,0 +1,15 @@
+.\obj\stm32f10x_lib.o: library\src\stm32f10x_lib.c
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_lib.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_map.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_conf.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_type.h
+.\obj\stm32f10x_lib.o: .\library\inc\cortexm3_macro.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_adc.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_dma.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_flash.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_gpio.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_nvic.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_rcc.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_systick.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_tim.h
+.\obj\stm32f10x_lib.o: .\library\inc\stm32f10x_usart.h

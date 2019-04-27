@@ -1,0 +1,17 @@
+.\obj\main.o: src\main.c
+.\obj\main.o: .\library\inc\stm32f10x_lib.h
+.\obj\main.o: .\library\inc\stm32f10x_map.h
+.\obj\main.o: .\library\inc\stm32f10x_conf.h
+.\obj\main.o: .\library\inc\stm32f10x_type.h
+.\obj\main.o: .\library\inc\cortexm3_macro.h
+.\obj\main.o: .\library\inc\stm32f10x_adc.h
+.\obj\main.o: .\library\inc\stm32f10x_dma.h
+.\obj\main.o: .\library\inc\stm32f10x_flash.h
+.\obj\main.o: .\library\inc\stm32f10x_gpio.h
+.\obj\main.o: .\library\inc\stm32f10x_nvic.h
+.\obj\main.o: .\library\inc\stm32f10x_rcc.h
+.\obj\main.o: .\library\inc\stm32f10x_systick.h
+.\obj\main.o: .\library\inc\stm32f10x_tim.h
+.\obj\main.o: .\library\inc\stm32f10x_usart.h
+.\obj\main.o: D:\program_files\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\main.o: D:\program_files\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
